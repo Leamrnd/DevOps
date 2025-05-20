@@ -20,5 +20,5 @@ jobs:
 
       - name: Build and test with Maven
         run: |
-          cd simple-api
+          cd Correction/simple-api
           mvn clean install
