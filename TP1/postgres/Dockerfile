@@ -4,3 +4,5 @@ ENV POSTGRES_DB=db \
    POSTGRES_USER=usr \
    POSTGRES_PASSWORD=pwd
    
+
+COPY create_table.sql init.sql /docker-entrypoint-initdb.d/
